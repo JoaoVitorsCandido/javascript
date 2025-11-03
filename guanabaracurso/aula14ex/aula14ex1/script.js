@@ -18,7 +18,7 @@ for (let s = inicio; s <= fim; s += passos){
   res.innerHTML += `${s}, `
 }}else {
   //contagem regressiva 
-  for (let s = inicio; s>=fim; s-= passos){
+  for (let s = inicio; s >= fim; s-= passos){
   }
 }
 }
