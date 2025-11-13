@@ -9,17 +9,23 @@
 
 <body>
   <script>
-    
-    const pessoa1 = {
-      nome: "joao",
-      sobrenome: "souza",
-      idade: 17
+  
+    function criarPessoa(nome, sobrenome, idade){
+      return {
+        nome,
+        sobrenome,
+        idade
+      }
     }
     
-    console.log(pessoa1.nome)
-    console.log(pessoa1.sobrenome)
-    console.log(pessoa1.idade)
-    
+      const pessoa1 = criarPessoa("joao", "souza", 17)
+      const pessoa2 = criarPessoa("sim", "silva", 69)
+      const pessoa3 = criarPessoa("aham", "ta", 99)
+      
+      console.log(pessoa1)
+      console.log(pessoa2)
+      console.log(pessoa3)
+      
   </script>
 </body>
 
