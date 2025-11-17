@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <script>
+    
+    /*
+    && and/e (precisa ter todos os valores como true para dar true a expressão)
+    
+    || or/ou (se tiver 1 valor true a expressão volta como true)
+    
+    ! not/não (ele simplesmente inverte a expressão, se for true vai dar false)
+    */
+    
+    const usuario = "joao";
+    const senha = 123456;
+    
+    const and = usuario === "joao" /*true*/ && senha === 123456 /*true*/;
+    console.log(and);
+    
+    const or = usuario === "joao" /*true*/ || senha === 123 /*false*/;
+    console.log(or);
+    
+    const not = usuario === !"joao";
+    const nao = senha === !123456;
+    console.log(not);
+    console.log(nao);
+    
+  </script>
+</body>
+
+</html>
