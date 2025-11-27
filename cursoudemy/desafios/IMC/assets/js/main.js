@@ -8,8 +8,8 @@ function escopo() {
   const peso = Number(document.getElementById("ipeso").value);
   let altura = Number(document.getElementById("ialt").value);
   
-  const imc = (peso / (altura * altura)).toFixed(1)
-  
+  const imc = (peso / (altura * altura)).toFixed(2)
+
   if (imc <= 18.49){
     resultado.innerHTML = `Seu IMC é ${imc}, você está abaixo do peso.`
     resultado.style.backgroundColor = "#FF2323ED"
